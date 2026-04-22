@@ -25,5 +25,41 @@
         "start_time": "15:00",
         "end_time": "23:00",
         "details": "Assigned by supervisor"
+    },
+    {
+        "type": "Shift",
+        "title": "Swings",
+        "employee": "Bob",
+        "date": "2026-04-22",
+        "start_time": "15:00",
+        "end_time": "23:00",
+        "details": "Assigned by supervisor"
+    },
+    {
+        "type": "Shift",
+        "title": "Swings",
+        "employee": "Bob",
+        "date": "2026-04-23",
+        "start_time": "15:00",
+        "end_time": "23:00",
+        "details": "Assigned by supervisor"
+    },
+    {
+        "type": "Shift",
+        "title": "Swings",
+        "employee": "Bob",
+        "date": "2026-04-24",
+        "start_time": "15:00",
+        "end_time": "23:00",
+        "details": "Assigned by supervisor"
+    },
+    {
+        "type": "Shift",
+        "title": "Swings",
+        "employee": "Bob",
+        "date": "2026-04-25",
+        "start_time": "15:00",
+        "end_time": "23:00",
+        "details": "Assigned by supervisor"
     }
 ]
