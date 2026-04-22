@@ -8,3 +8,4 @@ pydeck
 pillow
 joblib
 scikit-learn==1.7.2
+streamlit_calendar
