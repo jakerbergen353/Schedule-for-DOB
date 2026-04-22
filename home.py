@@ -1121,7 +1121,7 @@ with st.sidebar:
             f"</div>",
             unsafe_allow_html=True,
         )
-        st.markdown("**Events**")
+        
 
 
 
