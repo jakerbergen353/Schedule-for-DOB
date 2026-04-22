@@ -1095,6 +1095,40 @@ with st.sidebar:
         else:
             st.warning("Enter a unique employee name.")
 
+    if st.session_state.employees:
+        remove_employee = st.selectbox(
+            "Remove an employee",
+            [""] + st.session_state.employees,
+            key="remove_employee",
+        )
+        remove_entries_too = st.checkbox(
+            "Also remove this person's scheduled entries",
+            value=False,
+            key="remove_entries_too",
+        )
+        if st.button("Remove Employee"):
+            if not remove_employee:
+                st.warning("Select an employee to remove.")
+            else:
+                employee_has_entries = any(
+                    entry["employee"] == remove_employee for entry in st.session_state.data
+                )
+
+                if employee_has_entries and not remove_entries_too:
+                    st.error(
+                        "That employee still has scheduled entries. Check the box if you want to remove both the employee and their schedule entries."
+                    )
+                else:
+                    st.session_state.employees.remove(remove_employee)
+                    if remove_entries_too:
+                        st.session_state.data = [
+                            entry for entry in st.session_state.data
+                            if entry["employee"] != remove_employee
+                        ]
+                        save_data(st.session_state.data)
+                    st.success(f"Removed {remove_employee}")
+                    st.rerun()
+
     st.divider()
     st.markdown("**Legend**")
 
@@ -1121,8 +1155,6 @@ with st.sidebar:
             f"</div>",
             unsafe_allow_html=True,
         )
-        
-
 
 
 # -----------------------------
