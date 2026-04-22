@@ -1122,14 +1122,7 @@ with st.sidebar:
             unsafe_allow_html=True,
         )
         st.markdown("**Events**")
-    for label, color in EVENT_COLORS.items():
-        st.markdown(
-            f"<div style='display:flex;align-items:center;gap:8px;margin-bottom:6px;'>"
-            f"<span style='display:inline-block;width:12px;height:12px;background:{color};border-radius:3px;'></span>"
-            f"<span>{label}</span>"
-            f"</div>",
-            unsafe_allow_html=True,
-        )
+
 
 
 # -----------------------------
