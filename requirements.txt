@@ -1,0 +1,10 @@
+importlib.metadata
+pandas
+streamlit_echarts
+streamlit
+numpy
+scipy
+pydeck
+pillow
+joblib
+scikit-learn==1.7.2

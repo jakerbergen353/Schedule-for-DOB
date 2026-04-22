@@ -1,0 +1,38 @@
+[
+    {
+        "type": "shift",
+        "title": "Morning",
+        "date": "2026-04-21",
+        "start_time": "08:00",
+        "end_time": "12:00",
+        "employee": "Alice",
+        "details": "Assigned by supervisor"
+    },
+    {
+        "type": "shift",
+        "title": "Morning",
+        "date": "2026-04-08",
+        "start_time": "08:00",
+        "end_time": "12:00",
+        "employee": "Bob",
+        "details": "Assigned by supervisor"
+    },
+    {
+        "type": "shift",
+        "title": "Afternoon",
+        "date": "2026-04-09",
+        "start_time": "12:00",
+        "end_time": "16:00",
+        "employee": "Diana",
+        "details": "Assigned by supervisor"
+    },
+    {
+        "type": "shift",
+        "title": "Afternoon",
+        "date": "2026-04-09",
+        "start_time": "12:00",
+        "end_time": "16:00",
+        "employee": "Carlos",
+        "details": "Assigned by supervisor"
+    }
+]

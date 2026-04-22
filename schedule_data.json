@@ -1,0 +1,29 @@
+[
+    {
+        "type": "Shift",
+        "title": "Mids",
+        "employee": "Bob",
+        "date": "2026-04-03",
+        "start_time": "23:00",
+        "end_time": "07:00",
+        "details": "Assigned by supervisor"
+    },
+    {
+        "type": "Shift",
+        "title": "Days",
+        "employee": "Alice",
+        "date": "2026-04-03",
+        "start_time": "07:00",
+        "end_time": "15:00",
+        "details": "Assigned by supervisor"
+    },
+    {
+        "type": "Shift",
+        "title": "Swings",
+        "employee": "Bob",
+        "date": "2026-04-03",
+        "start_time": "15:00",
+        "end_time": "23:00",
+        "details": "Assigned by supervisor"
+    }
+]
